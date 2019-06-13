@@ -13,7 +13,7 @@ class Coordinates:
 
 
 def restart_game():
-	pyautogui.click(Coordinates.retart_bttn)
+	pyautogui.click(Coordinates.restart_bttn)
 
 def jump():
 	pyautogui.keyDown('space')
